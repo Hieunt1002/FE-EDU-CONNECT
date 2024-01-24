@@ -1,0 +1,198 @@
+.body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.body-tutor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.tutor-infor {
+    position: relative;
+    height: 50%;
+    padding-bottom: 70%;
+}
+
+.tutor-img {
+    position: absolute;
+    top: 10%;
+    height: 85%;
+    width: 60%;
+    left: 25%;
+}
+
+.infortutor {
+    display: flex;
+    margin-top: 8%;
+}
+
+.infortutor .Nametutor {
+    font-size: 20px;
+}
+
+.infortutor .people {
+    position: absolute;
+    right: 10%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.infortutor .people .number {
+    height: 25px;
+    width: 25px;
+    margin-right: 4px;
+}
+
+.infortutor .people .share {
+    height: 21px;
+    width: 21px;
+    margin-left: 20px;
+}
+
+.infortutor .people .more {
+    height: 21px;
+    width: 21px;
+    margin-left: 20px;
+}
+
+.body-tutor .name {
+    font-size: 32px;
+    margin-left: 5%;
+}
+
+.body-tutor .subject {
+    font-size: 20px;
+}
+
+.body-tutor .course {
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.body-tutor .price {
+    font-size: 20px;
+}
+
+.body-tutor .price-number {
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.body-tutor .rank {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.button .register {
+    width: 156px;
+    left: 10%;
+    height: 39px;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+    background-color: green;
+}
+
+.button .infor {
+    width: 156px;
+    left: 20%;
+    height: 39px;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+    background-color: #AFB5AF;
+}
+
+.button .try {
+    width: 156px;
+    left: 30%;
+    height: 39px;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+    background-color: #B5BC60;
+}
+
+.bodysubject {
+    margin-bottom: 5%;
+}
+
+.bodysubject .relsubject {
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bodysubject .relsubject .line {
+    display: inline-block;
+    border-bottom: 1px solid #000000;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.bodysubject .top4couse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 155px;
+    background-color: #D9D9D9;
+    border-radius: 3%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+    margin: auto;
+}
+
+.bodysubject .top4couse .courseimg {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.bodysubject .top4couse .namebook {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 580;
+    font-family: cursive;
+}
+
+.bodysubject .top4couse .numberpeople {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.bodysubject .top4couse .total {
+    height: 19px;
+    width: 19px;
+}
+
+.bodysubject .top4couse .buttonchitiet {
+    left: 15px;
+    height: 10px;
+    font-size: 8px;
+    background-color: green;
+}
+
+.bodysubject .top4couse .imgtutor {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+}
+
+.bodysubject .top4couse .button-register {
+    width: 80%;
+    padding: 10px;
+    font-size: 8px;
+    margin-bottom: 10px;
+    background-color: green;
+}

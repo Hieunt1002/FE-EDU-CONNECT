@@ -1,0 +1,166 @@
+.home {
+  width: 100%,
+}
+
+.an {
+  height: 190px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.ann {
+  height: 190px;
+  margin-left: auto;
+  margin-right: 90px;
+  margin-top: 30px;
+}
+
+.giasu {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  border-radius: 5%;
+}
+
+.giasu-container {
+  position: relative;
+}
+
+.giasutext {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.giasutext::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: green;
+  margin: 5px auto 0;
+}
+
+.giasu-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+/* .giasu-infor {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+} */
+
+.giasu1 {
+  display: block;
+  margin-left: 10%;
+}
+
+.giasu-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.giasu2 {
+  display: block;
+  margin-left: 75%;
+}
+
+.infor {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image25 {
+  margin-left: 45%;
+  display: block;
+  height: 120px;
+}
+
+.image26 {
+  margin-left: 45%;
+  display: block;
+  height: 85px;
+  margin-top: 4%;
+}
+
+
+.image27 {
+  margin-left: 19%;
+  display: block;
+  height: 90px;
+  margin-top: 18px;
+}
+
+.image28 {
+  margin-left: 19%;
+  display: block;
+  height: 90px;
+  margin-top: 18px;
+}
+
+.image31 {
+  margin-left: 70%;
+  display: block;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.image32 {
+  display: block;
+  height: 115px;
+  margin-top: 20px;
+}
+
+.why-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.why-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.hotnew {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.line {
+  display: inline-block;
+  border-bottom: 2px solid #000000;
+  width: 30%;
+  margin-bottom: 5px;
+}

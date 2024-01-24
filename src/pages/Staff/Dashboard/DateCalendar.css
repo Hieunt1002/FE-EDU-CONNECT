@@ -1,0 +1,15 @@
+.MuiDayCalendar-weekContainer button {
+    font-size: 15px;
+}
+
+.MuiDayCalendar-header span {
+    font-size: 15px;
+}
+
+.MuiPickersCalendarHeader-labelContainer .MuiPickersFadeTransitionGroup-root {
+    font-size: 15px;
+}
+
+.MuiYearCalendar-root .MuiPickersYear-root .MuiPickersYear-yearButton {
+    font-size: 15px;
+}

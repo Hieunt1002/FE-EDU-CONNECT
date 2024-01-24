@@ -1,0 +1,44 @@
+.body {
+    height: 100%;
+    margin-bottom: 8%;
+}
+
+.body .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+    margin: auto;
+    margin-top: 7%;
+    height: 90%;
+    margin-bottom: 10%;
+}
+
+.body .container .subject-img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.body .container .inforsubject {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.body .container .nameSubject {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10%;
+}
+
+.body .link {
+    text-decoration: none;
+}

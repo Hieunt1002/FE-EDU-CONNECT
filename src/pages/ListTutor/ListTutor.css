@@ -1,0 +1,76 @@
+.tutor {
+    height: 100%;
+}
+
+.tutor .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+    margin: auto;
+    height: 90%;
+    margin-bottom: 10%;
+
+}
+
+.containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    border-radius: 3%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 5px;
+    margin: auto;
+    height: 90%;
+    margin-bottom: 10%;
+}
+
+.containers .nameTutor {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.containers .inforsubject {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.tutor .container .subject-img {
+    display: block;
+    margin: auto;
+}
+
+.tutor .container .inforsubject {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.tutor .container .nameTutor {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.tutor .container .nameSubject {
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.tutor .link {
+    text-decoration: none;
+}

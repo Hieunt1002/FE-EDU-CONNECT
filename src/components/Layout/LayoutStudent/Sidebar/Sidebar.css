@@ -1,0 +1,12 @@
+.sidebar {
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 71px;
+}
+
+.container {
+  font-size: 16px;
+}
+
